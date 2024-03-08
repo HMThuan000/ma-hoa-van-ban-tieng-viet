@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1152</width>
+    <height>649</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>250</y>
+      <width>411</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Nguyễn Triệu Kha - 21DH113731</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>282</y>
+      <width>411</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Huỳnh Minh Thuận - 21DH111848</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>310</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Trà Vĩnh Khang - 21DH110789</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>540</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>HK1 2023-2024</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>180</y>
+      <width>481</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Các thuật toán mã hoá dữ liệu</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="b_grad">
+    <property name="geometry">
+     <rect>
+      <x>-90</x>
+      <y>0</y>
+      <width>1241</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:  rgba(0, 0, 0, 200);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="b_img">
+    <property name="geometry">
+     <rect>
+      <x>-60</x>
+      <y>-100</y>
+      <width>1221</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/637e4098f94e074e846e965d_data-processing-applications-clearpoint.jpeg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>350</y>
+      <width>481</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>GVHD: Phạm Đức Thành</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>b_img</zorder>
+   <zorder>b_grad</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label</zorder>
+   <zorder>label_8</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1152</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuM_ho">
+     <property name="title">
+      <string>Mã hoá</string>
+     </property>
+     <widget class="QMenu" name="menuK_thu_t_thay_th">
+      <property name="title">
+       <string>Kỹ thuật thay thế</string>
+      </property>
+      <addaction name="actionCeasar_MaHoa"/>
+      <addaction name="actionVignere_MaHoa"/>
+      <addaction name="actionTrithemius_MaHoa"/>
+      <addaction name="actionBelasco_MaHoa"/>
+     </widget>
+     <widget class="QMenu" name="menuK_thu_t_chuy_n_vi">
+      <property name="title">
+       <string>Kỹ thuật chuyển vi</string>
+      </property>
+      <addaction name="actionHai_dong_MaHoa"/>
+      <addaction name="actionNhieu_dong_MaHoa"/>
+     </widget>
+     <widget class="QMenu" name="menuHi_n_i">
+      <property name="title">
+       <string>Hiện đại</string>
+      </property>
+      <addaction name="actionSDES_MaHoa"/>
+      <addaction name="actionRSA_MaHoa"/>
+      <addaction name="actionAES_MaHoa"/>
+     </widget>
+     <widget class="QMenu" name="menuK_thu_t_XOR">
+      <property name="title">
+       <string>Kỹ thuật XOR</string>
+      </property>
+      <addaction name="actionCeasar_XOR_MaHoa"/>
+      <addaction name="actionVignere_XOR_MaHoa"/>
+      <addaction name="actionTrithemius_XOR_MaHoa"/>
+      <addaction name="actionBelasco_XOR_MaHoa"/>
+     </widget>
+     <addaction name="menuK_thu_t_thay_th"/>
+     <addaction name="menuK_thu_t_chuy_n_vi"/>
+     <addaction name="menuK_thu_t_XOR"/>
+     <addaction name="menuHi_n_i"/>
+    </widget>
+    <widget class="QMenu" name="menuGi_i_m">
+     <property name="title">
+      <string>Giải mã</string>
+     </property>
+     <widget class="QMenu" name="menuK_thu_t_thay_th_2">
+      <property name="title">
+       <string>Kỹ thuật thay thế</string>
+      </property>
+      <addaction name="actionCeasar_GiaiMa"/>
+      <addaction name="actionVignere_GiaiMa"/>
+      <addaction name="actionTrithemius_GiaiMa"/>
+      <addaction name="actionBelasco_GiaiMa"/>
+     </widget>
+     <widget class="QMenu" name="menuK_thu_t_chuy_n_v">
+      <property name="title">
+       <string>Kỹ thuật chuyển vị</string>
+      </property>
+      <addaction name="actionHai_dong_GiaiMa"/>
+      <addaction name="actionNhieu_dong_GiaiMa"/>
+     </widget>
+     <widget class="QMenu" name="menuHi_n_i_2">
+      <property name="title">
+       <string>Hiện đại</string>
+      </property>
+      <addaction name="actionSDES_GiaiMa"/>
+      <addaction name="actionRSA_GiaiMa"/>
+      <addaction name="actionAES_GiaiMa"/>
+     </widget>
+     <widget class="QMenu" name="menuK_thu_t_XOR_2">
+      <property name="title">
+       <string>Kỹ thuật XOR</string>
+      </property>
+      <addaction name="actionCeasar_XOR_GiaiMa"/>
+      <addaction name="actionVignere_XOR_GiaiMa"/>
+      <addaction name="actionTrithemius_XOR_GiaiMa"/>
+      <addaction name="actionBelasco_XOR_GiaiMa"/>
+     </widget>
+     <addaction name="menuK_thu_t_thay_th_2"/>
+     <addaction name="menuK_thu_t_chuy_n_v"/>
+     <addaction name="menuK_thu_t_XOR_2"/>
+     <addaction name="menuHi_n_i_2"/>
+    </widget>
+    <addaction name="menuM_ho"/>
+    <addaction name="menuGi_i_m"/>
+   </widget>
+   <widget class="QMenu" name="menuSign_in">
+    <property name="title">
+     <string>Sign in</string>
+    </property>
+    <addaction name="actionLogin"/>
+    <addaction name="actionLogout"/>
+    <addaction name="separator"/>
+    <addaction name="actionSignup"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuSign_in"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCeasar_MaHoa">
+   <property name="text">
+    <string>Caesar</string>
+   </property>
+  </action>
+  <action name="actionVignere_MaHoa">
+   <property name="text">
+    <string>Vignere</string>
+   </property>
+  </action>
+  <action name="actionTrithemius_MaHoa">
+   <property name="text">
+    <string>Trithemius</string>
+   </property>
+  </action>
+  <action name="actionHai_dong_MaHoa">
+   <property name="text">
+    <string>Hai dòng</string>
+   </property>
+  </action>
+  <action name="actionNhieu_dong_MaHoa">
+   <property name="text">
+    <string>Nhiều dòng</string>
+   </property>
+  </action>
+  <action name="actionSDES_MaHoa">
+   <property name="text">
+    <string>SDES</string>
+   </property>
+  </action>
+  <action name="actionRSA_MaHoa">
+   <property name="text">
+    <string>RSA</string>
+   </property>
+  </action>
+  <action name="actionCeasar_GiaiMa">
+   <property name="text">
+    <string>Caesar</string>
+   </property>
+  </action>
+  <action name="actionVignere_GiaiMa">
+   <property name="text">
+    <string>Vignere</string>
+   </property>
+  </action>
+  <action name="actionTrithemius_GiaiMa">
+   <property name="text">
+    <string>Trithemius</string>
+   </property>
+  </action>
+  <action name="actionHai_dong_GiaiMa">
+   <property name="text">
+    <string>Hai dòng</string>
+   </property>
+  </action>
+  <action name="actionBelasco_GiaiMa">
+   <property name="text">
+    <string>Belasco</string>
+   </property>
+  </action>
+  <action name="actionNhieu_dong_GiaiMa">
+   <property name="text">
+    <string>Nhiều dòng</string>
+   </property>
+  </action>
+  <action name="actionBelasco_MaHoa">
+   <property name="text">
+    <string>Belasco</string>
+   </property>
+  </action>
+  <action name="actionAES_MaHoa">
+   <property name="text">
+    <string>AES</string>
+   </property>
+  </action>
+  <action name="actionSDES_GiaiMa">
+   <property name="text">
+    <string>SDES</string>
+   </property>
+  </action>
+  <action name="actionRSA_GiaiMa">
+   <property name="text">
+    <string>RSA</string>
+   </property>
+  </action>
+  <action name="actionAES_GiaiMa">
+   <property name="text">
+    <string>AES</string>
+   </property>
+  </action>
+  <action name="actionCeasar_XOR_MaHoa">
+   <property name="text">
+    <string>Caesar</string>
+   </property>
+  </action>
+  <action name="actionVignere_XOR_MaHoa">
+   <property name="text">
+    <string>Vignere</string>
+   </property>
+  </action>
+  <action name="actionTrithemius_XOR_MaHoa">
+   <property name="text">
+    <string>Trithemius</string>
+   </property>
+  </action>
+  <action name="actionBelasco_XOR_MaHoa">
+   <property name="text">
+    <string>Belasco</string>
+   </property>
+  </action>
+  <action name="actionCeasar_XOR_GiaiMa">
+   <property name="text">
+    <string>Caesar</string>
+   </property>
+  </action>
+  <action name="actionVignere_XOR_GiaiMa">
+   <property name="text">
+    <string>Vignere</string>
+   </property>
+  </action>
+  <action name="actionTrithemius_XOR_GiaiMa">
+   <property name="text">
+    <string>Trithemius</string>
+   </property>
+  </action>
+  <action name="actionBelasco_XOR_GiaiMa">
+   <property name="text">
+    <string>Belasco</string>
+   </property>
+  </action>
+  <action name="actionLogin">
+   <property name="text">
+    <string>Log in</string>
+   </property>
+  </action>
+  <action name="actionLogout">
+   <property name="text">
+    <string>Log out</string>
+   </property>
+  </action>
+  <action name="actionSignup">
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../Image_and_icons/background.qrc"/>
+ </resources>
+ <connections/>
+</ui>

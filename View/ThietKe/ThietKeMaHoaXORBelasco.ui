@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1152</width>
+    <height>649</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>50</y>
+     <width>281</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Mã hoá XOR Belasco</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>40</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Nhập nội dung cần mã hoá:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txtPlaintext">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>60</y>
+     <width>671</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 15);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="b_img">
+   <property name="geometry">
+    <rect>
+     <x>-60</x>
+     <y>-100</y>
+     <width>1221</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/637e4098f94e074e846e965d_data-processing-applications-clearpoint.jpeg);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txtCiphertext">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>370</y>
+     <width>671</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 15);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOpenFile">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>290</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#btnOpenFile{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(25, 54, 82, 255), stop:1 rgba(33, 34, 36, 255));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#btnOpenFile:hover{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0  rgba(37, 82, 125, 255), stop:1 rgba(57, 60, 64, 255));
+ 	transition: background 0.5s;
+}
+QPushButton#btnOpenFile:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Mở file</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <selectedon>:/newPrefix/3748664.png</selectedon>
+    </iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>290</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Nhập key (chuỗi ký tự):</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnMaHoa">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>290</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#btnMaHoa{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(25, 54, 82, 255), stop:1 rgba(33, 34, 36, 255));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#btnMaHoa:hover{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0  rgba(37, 82, 125, 255), stop:1 rgba(57, 60, 64, 255));
+ 	transition: background 0.5s;
+}
+QPushButton#btnMaHoa:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Mã hoá</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <selectedon>:/newPrefix/fl-feature-lock-folders.png</selectedon>
+    </iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>350</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Nội dung đã mã hoá:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txtKey">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>290</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 15);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClose">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>590</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#btnClose{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(25, 54, 82, 255), stop:1 rgba(33, 34, 36, 255));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#btnClose:hover{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0  rgba(37, 82, 125, 255), stop:1 rgba(57, 60, 64, 255));
+ 	transition: background 0.5s;
+}
+QPushButton#btnClose:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Thoát</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="b_grad">
+   <property name="geometry">
+    <rect>
+     <x>-90</x>
+     <y>0</y>
+     <width>1241</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0, 0, 0, 255));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSaveFile">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>590</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#btnSaveFile{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(25, 54, 82, 255), stop:1 rgba(33, 34, 36, 255));
+	color:rgba(255, 255, 255, 210);
+	border-radius:5px;
+}
+QPushButton#btnSaveFile:hover{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0  rgba(37, 82, 125, 255), stop:1 rgba(57, 60, 64, 255));
+ 	transition: background 0.5s;
+}
+QPushButton#btnSaveFile:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Lưu file</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <selectedon>:/newPrefix/1157987.png</selectedon>
+    </iconset>
+   </property>
+  </widget>
+  <zorder>b_img</zorder>
+  <zorder>b_grad</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>txtPlaintext</zorder>
+  <zorder>txtCiphertext</zorder>
+  <zorder>btnOpenFile</zorder>
+  <zorder>label_3</zorder>
+  <zorder>btnMaHoa</zorder>
+  <zorder>label_4</zorder>
+  <zorder>txtKey</zorder>
+  <zorder>btnClose</zorder>
+  <zorder>btnSaveFile</zorder>
+ </widget>
+ <resources>
+  <include location="../Image_and_icons/background.qrc"/>
+ </resources>
+ <connections/>
+</ui>
